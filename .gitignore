@@ -1,8 +1,33 @@
-node_modules/
-build/
-dist/
-coverage/
-.DS_Store
+# Logs
+logs
 *.log
-.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.production
+.env.development
 !.env.example
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# AI Studio internal files
+.aistudio/
